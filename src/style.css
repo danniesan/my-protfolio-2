@@ -53,7 +53,8 @@ p{
     margin: 20px 0;
 }
 .project-description{
-    padding: 120px 60px;
+    text-align: center;
+    padding: 40px 60px;
 }
 .headshot{
     width: 350px;
@@ -110,5 +111,79 @@ footer .social-links a{
 }
 footer .social-links a:hover{
     color: var(--fourth-color);
+}
+@media(max-width: 900px){
+    .container{
+        padding: 0;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .hero{
+        padding: 80px 20px;
+    }
+    .hero p{
+        margin :0;
+    }
+    .project-description{
+        text-align: center;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .content-container{
+        text-align: center;
+        padding:0;
+    }
+    .heading-container{
+        padding: 20px 40px;
+    }
+    .work-content{
+        padding: 18px 35px;
+    }
+    
+    .headshot{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .portrait{
+        width: 125px;
+        margin: 15px 0;
+    }
+    .contact-link{
+        font-size: 16px;
+    }
+    .btn-branding{
+        font-size: 10px;
+        padding: 6px 10px;
+        margin: 10px 0;
+    }
+    .btn-launch{
+        font-size: 10px;
+        padding: 10px 10px;
+        margin: 20px 0;
+    }
+    footer .contact-container{
+        padding:15px 10px;
+        margin: 0 30px;
+    }
+    footer .email-link{
+        font-size: 15px;
+    }
+    footer .social-links a{
+        margin:0 10px;
+        font-size: 16px;
+    }
 }
 
